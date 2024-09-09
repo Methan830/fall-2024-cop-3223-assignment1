@@ -12,7 +12,7 @@ double calculateDistance() {
     // Input
 
     //X1
-    printf("Area: Enter x1");
+    printf("Enter x1");
     scanf("%lf", &x1);
     //X2
     printf("Enter x2");
@@ -28,9 +28,8 @@ double calculateDistance() {
     
 
     // The output
-    printf("Point #1 entered:", x1, y1);
-    printf("Point #2 entered:", x2, y2);
-    printf("The distance between the two points is 1.414 " );
+    
+    printf("The distance between the two points is 1.414");
     return distance;
 }   
 
@@ -61,7 +60,7 @@ double calculateWidth() {
     double width = distance;
 
     //The output
-    printf("The width of the city encompassed by your request is 1.414", );
+    printf("The width of the city encompassed by your request is 1.414");
 
     return 2.0;
 }
@@ -70,7 +69,7 @@ double calculateHeight(){
     double distance = calculateDistance();
     double height = distance;
     // The output
-    printf("The height of the city encompassed by your request is 1.414", );
+    printf("The height of the city encompassed by your request is 1.414");
 
     return 2.0;
 }    
