@@ -28,8 +28,9 @@ double calculateDistance() {
     distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
     // The output
-    printf("Point #1 entered:", x1, y1);
-    printf("Point #2 entered:", x2, y2);
+    printf("Point #1 entered: x1 = %.2lf; y1 = %.2lf", x1, y1);
+    printf("Point #2 entered: x2 = %.2lf; y2 = %.2lf", x2, y2);
+    printf("The distance between the two points is ", distance)
     return distance;
 }   
 
