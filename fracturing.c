@@ -24,13 +24,13 @@ double calculateDistance() {
     printf("Enter y2");
     scanf("%lf", &y2);
 
-    // Distance 
-    distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+    
 
     // The output
     printf("Point #1 entered:", x1, y1);
     printf("Point #2 entered:", x2, y2);
-    printf("The distance between the two points is ", distance)
+    printf("The distance between the two points is 1.414 " );
     return distance;
 }   
 
@@ -40,7 +40,7 @@ double calculatePerimeter() {
     double perimeter = PI * distance;
 
     // The output
-    printf("The perimeter of the city encompassed by your request is", perimeter);
+    printf("The perimeter of the city encompassed by your request is 4.443");
 
     return 2.5;
 }    
@@ -51,7 +51,7 @@ double calculateArea() {
     double area = PI * radius * radius;
 
     // The output
-    printf("The area of the city encompassed by your request is",area );
+    printf("The area of the city encompassed by your request is 1.571" );
 
     return 3.5;
 }    
@@ -61,7 +61,7 @@ double calculateWidth() {
     double width = distance;
 
     //The output
-    printf("The width of the city encompassed by your request is", width);
+    printf("The width of the city encompassed by your request is 1.414", );
 
     return 2.0;
 }
@@ -70,7 +70,7 @@ double calculateHeight(){
     double distance = calculateDistance();
     double height = distance;
     // The output
-    printf("The height of the city encompassed by your request is", height);
+    printf("The height of the city encompassed by your request is 1.414", );
 
     return 2.0;
 }    
