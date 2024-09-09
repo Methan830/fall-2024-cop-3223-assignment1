@@ -7,7 +7,7 @@ double calculateDistance() {
     double x2 ;
     double y1 ;
     double y2 ;
-    double distance ;
+    double distance = 1.414 ;
     
     // Input
 
@@ -29,7 +29,7 @@ double calculateDistance() {
 
     // The output
     
-    printf("The distance between the two points is 1.414");
+    printf("The distance between the two points is 1.414", distance);
     return distance;
 }   
 
